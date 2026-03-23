@@ -116,7 +116,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #1bcceb;
+    background-color: #0a41e5;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -124,18 +124,18 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #80dcec;
+    background-color: #0a83d4;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #1bcceb;
+    color: #1b8deb;
     margin: 0 12px;
     font-weight: bold;
 }
 
 .text--teal {
-    color:#80dcec;
+    color:#0592e9;
 }
 
 /* ABOUT ME */
