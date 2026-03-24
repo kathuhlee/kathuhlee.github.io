@@ -183,12 +183,14 @@ nav {
 }
 
 .about-me__picture {
+    transform: scale(1);
     width: 100%;
+    height: 100%; /* REQUIRED: This lets the image stretch to fill your container */
+    object-fit: cover; /* This crops the image so it doesn't look squished */
 
-    /* improving my own picture */
-    transform: scale(1.8);
-    padding-right: 14px;
-    padding-bottom: 16px;
+    /* Move your head up or down here: */
+    object-position: center 10%;
+
 
 }
 
@@ -332,7 +334,7 @@ nav {
     overflow: hidden;
     display: flex;
     position: relative;
-    
+
 }
 
 .project__wrapper:before {
@@ -429,7 +431,7 @@ footer {
     border-radius: 50%;
 }
 
-.footer__social--link, 
+.footer__social--link,
 .footer__copyright,
 .footer__logo--popper  {
     color: #fff;
